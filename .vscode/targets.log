@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Jun 13 02:03:34 2022
+# Make data base, printed on Thu Sep  1 00:50:59 2022
 
 # Variables
 
@@ -30,8 +30,6 @@ XDG_SESSION_CLASS = user
 SNAP_COMMON = /var/snap/code/common
 # environment
 XDG_SESSION_TYPE = x11
-# environment
-VSCODE_LOG_NATIVE = false
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
@@ -49,11 +47,11 @@ CURDIR := /home/hoang/go-bank-simple
 # makefile
 SHELL = /bin/sh
 # environment
-SNAP_DATA = /var/snap/code/98
+SNAP_DATA = /var/snap/code/105
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # environment
-JOURNAL_STREAM = 8:50969
+JOURNAL_STREAM = 8:54041
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # environment
@@ -75,11 +73,9 @@ XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/d
 # environment
 DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # environment
-VSCODE_VERBOSE_LOGGING = true
+_ = /snap/code/105/usr/share/code/code
 # environment
-_ = /snap/code/98/usr/share/code/code
-# environment
-MANAGERPID = 2436
+MANAGERPID = 2770
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
@@ -89,7 +85,7 @@ VSCODE_CWD = /home/hoang
 # environment
 GOPROXY = https://proxy.golang.org,direct
 # environment
-GSETTINGS_SCHEMA_DIR = /snap/code/98/usr/share/glib-2.0/schemas
+GSETTINGS_SCHEMA_DIR = /snap/code/105/usr/share/glib-2.0/schemas
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
@@ -97,31 +93,29 @@ PATH = /home/hoang/.local/bin:/home/hoang/.nvm/versions/node/v16.6.0/bin:/home/h
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
-SESSION_MANAGER = local/hoang-sve15114fxs:@/tmp/.ICE-unix/2646,unix/hoang-sve15114fxs:/tmp/.ICE-unix/2646
+SESSION_MANAGER = local/hoang-sve15114fxs:@/tmp/.ICE-unix/3018,unix/hoang-sve15114fxs:/tmp/.ICE-unix/3018
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
 GDK_PIXBUF_MODULE_FILE = /home/hoang/snap/code/common/.cache/gdk-pixbuf-loaders.cache
 # environment
-SNAP = /snap/code/98
+SNAP = /snap/code/105
 # environment
 GOPATH = /home/hoang/go
 # environment
 NVM_BIN = /home/hoang/.nvm/versions/node/v16.6.0/bin
 # environment
-SNAP_VERSION = 4af164ea
+SNAP_VERSION = e4503b30
 # environment
 XDG_MENU_PREFIX = gnome-
-# environment
-VSCODE_LOG_STACK = false
 # environment
 DISABLE_WAYLAND = 1
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = 93b36df8b5264caab83f931f24310174
+INVOCATION_ID = 2274a27c22f14771be170652c7be691a
 # environment
-GDK_PIXBUF_MODULEDIR = /snap/code/98/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+GDK_PIXBUF_MODULEDIR = /snap/code/105/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -131,13 +125,11 @@ XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 90679
+GIO_LAUNCHED_DESKTOP_FILE_PID = 12124
 # automatic
 %F = $(notdir $%)
 # environment
 DISPLAY = :0
-# environment
-VSCODE_PIPE_LOGGING = true
 # environment
 SNAP_INSTANCE_KEY = 
 # environment
@@ -145,7 +137,7 @@ PWD = /home/hoang/go-bank-simple
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 2609
+SSH_AGENT_PID = 2981
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
@@ -159,7 +151,7 @@ LESSCLOSE = /usr/bin/lesspipe %s %s
 # environment
 VSCODE_CLI = 1
 # environment
-VSCODE_CODE_CACHE_PATH = /home/hoang/.config/Code/CachedData/4af164ea3a06f701fe3e89a2bcbb421d2026b68f
+VSCODE_CODE_CACHE_PATH = /home/hoang/.config/Code/CachedData/e4503b30fc78200f846c62cf8091b76ff5547662
 # environment
 LOGNAME = hoang
 # environment
@@ -193,19 +185,17 @@ MAKECMDGOALS := all
 # environment
 QT_IM_MODULE = ibus
 # environment
-SNAP_USER_DATA = /home/hoang/snap/code/98
+SNAP_USER_DATA = /home/hoang/snap/code/105
 # environment
 SHLVL = 0
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
-# environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-4f627391-556a-4d55-8749-5c4daa92c446.sock
 # default
 MAKE_VERSION := 4.2.1
 # environment
 USER = hoang
 # environment
-SNAP_REVISION = 98
+SNAP_REVISION = 105
 # environment
 LC_MONETARY = vi_VN.UTF-8
 # makefile
@@ -225,7 +215,7 @@ MAKE_COMMAND := make
 # automatic
 *F = $(notdir $*)
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-febcea04-1.68.0-main.sock
+VSCODE_IPC_HOOK = /run/user/1000/vscode-febcea04-1.70.2-main.sock
 # environment
 BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
 # makefile
@@ -279,24 +269,24 @@ GJS_DEBUG_OUTPUT = stderr
 # default
 .RECIPEPREFIX := 
 # environment
- 
 LC_ADDRESS = vi_VN.UTF-8
 # environment
 LANG = C
 # environment
-VSCODE_PID = 90728
+VSCODE_PID = 12170
 # variable set hash-table stats:
-# Load=136/1024=13%, Rehash=0, Collisions=23/161=14%
+# Load=131/1024=13%, Rehash=0, Collisions=22/156=14%
 
 # Pattern-specific Variable Values
 
+ 
 # No pattern-specific variable values.
 
 # Directories
 
-# . (device 2053, inode 1655756): 11 files, no impossibilities.
+# . (device 2053, inode 1655756): 12 files, no impossibilities.
 
-# 11 files, no impossibilities in 1 directories.
+# 12 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -385,12 +375,12 @@ migratedown:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 23 / storage = 189 B / avg = 8 B
-# current buf: size = 8162 B / used = 189 B / count = 23 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 24 / storage = 194 B / avg = 8 B
+# current buf: size = 8162 B / used = 194 B / count = 24 / avg = 8 B
 
-# strcache performance: lookups = 40 / hit rate = 42%
+# strcache performance: lookups = 41 / hit rate = 41%
 # hash-table stats:
-# Load=23/8192=0%, Rehash=0, Collisions=1/40=2%
-# Finished Make data base on Mon Jun 13 02:03:34 2022
+# Load=24/8192=0%, Rehash=0, Collisions=1/41=2%
+# Finished Make data base on Thu Sep  1 00:50:59 2022
 
  
